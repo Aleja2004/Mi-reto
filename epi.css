@@ -1,0 +1,148 @@
+/* Estilos de la barra superior */
+.navbar {
+    background-color: #5095d9;
+    padding: 10px;
+  }
+  
+  /* Estilos de los enlaces del menú */
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar a:hover {
+    color: #d4d4d4;
+  }
+  
+  /* Estilos de los cuadros */
+  .card {
+    width: 18rem;
+    background-color: hsl(281, 23%, 70%);
+    border: 1px solid #84119b;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 10px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  /* Estilos de los textos dentro de los cuadros */
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .card-text {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos del contenedor de resultados */
+  #resultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Estilos para asegurar que todos los cuadros tengan el mismo tamaño */
+  .card {
+    height: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-text {
+    flex-grow: 1;
+  }
+  
+  body {
+    background: rgb(93,196,193);
+    background: linear-gradient(90deg, rgba(93,196,193,1) 0%, rgba(126,102,207,1) 50%, rgba(217,127,125,1) 100%);
+  }
+  
+  
+ /* Estilo de la barra superior */
+.navbar {
+    background-color: #5095d9;
+    padding: 20px;
+  }
+  
+  /* Estilo del logo o título */
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgb(115, 38, 192);
+  }
+  
+  /* Estilo de los enlaces de navegación */
+  .nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+    text-shadow: 2px 2px 4px rgb(230, 18, 173);
+  }
+  
+  .nav-link:hover {
+    color: #fff;
+  }
+  
+  /* Estilo del botón de menú en dispositivos móviles */
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  /* Estilo del menú desplegable en dispositivos móviles */
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  /* Estilo del contenido principal */
+  .main-content {
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #5095d9;
+  }
+  
+  /* Estilo del título principal */
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilo del subtítulo */
+  .subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
